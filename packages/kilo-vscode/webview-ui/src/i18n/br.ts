@@ -1489,10 +1489,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "Destinos de rede permitidos",
   "settings.sandboxing.allowedHosts.description":
-    "Destinos de host e porta DNS para o tráfego de proxy HTTP e HTTPS em sandbox. GitHub CLI e HTTPS Git geralmente precisam de github.com:443 e api.github.com:443. As alterações se aplicam a novas sessões.",
+    "Destinos de host e porta DNS para o tráfego de proxy HTTP e HTTPS em sandbox. GitHub CLI e HTTPS Git geralmente precisam de github.com:443 e api.github.com:443.",
   "settings.sandboxing.writablePaths.title": "Caminhos graváveis adicionais",
   "settings.sandboxing.writablePaths.description":
     "Caminhos adicionais do sistema de arquivos onde o sandbox permite gravação (por exemplo, /tmp, /var/log). Eles são mesclados com os caminhos graváveis padrão quando o sandbox está ativo.",
+  "settings.sandboxing.hint":
+    "As alterações de rede, destinos e caminhos graváveis se aplicam apenas a novas sessões. As sessões existentes mantêm a política com a qual foram iniciadas.",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "Ativar SWE-Pruner: poda das saídas grandes das ferramentas de leitura, busca e shell levando em conta a tarefa, guiada por uma pergunta de foco fornecida pelo agente",

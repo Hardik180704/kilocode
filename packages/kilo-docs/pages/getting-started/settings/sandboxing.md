@@ -163,6 +163,10 @@ The config setting supplies the initial default for new sessions that do not hav
 
 Each initialized session snapshots its network mode, allowed destinations, and additional writable paths. Changing config affects new sessions. The prompt control or `/sandbox` can change the current session's enabled state, but it cannot change these authority lists, and they never expand during an active session.
 
+{% callout type="info" %}
+Restarting VS Code or the extension does not refresh an existing session's sandbox policy. After changing network mode, allowed destinations, or writable paths, start a new session to pick up the updated settings.
+{% /callout %}
+
 Forked sessions retain the source session's confinement. Subagents inherit the stricter combination of parent and child settings: sandboxing remains enabled if either requires it, deny-all wins over destination exceptions, destination lists intersect, and additional writable paths intersect.
 
 Cloud sessions do not expose the local sandbox control because their tools do not run in your local sandbox.

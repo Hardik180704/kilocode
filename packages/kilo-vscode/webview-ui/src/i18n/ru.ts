@@ -1483,10 +1483,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "Разрешенные сетевые назначения",
   "settings.sandboxing.allowedHosts.description":
-    "Целевые DNS-хосты и порты для прокси-трафика HTTP и HTTPS в песочнице. GitHub CLI и HTTPS Git обычно требуют github.com:443 и api.github.com:443. Изменения применяются к новым сеансам.",
+    "Целевые DNS-хосты и порты для прокси-трафика HTTP и HTTPS в песочнице. GitHub CLI и HTTPS Git обычно требуют github.com:443 и api.github.com:443.",
   "settings.sandboxing.writablePaths.title": "Дополнительные пути для записи",
   "settings.sandboxing.writablePaths.description":
     "Дополнительные пути файловой системы, в которые разрешена запись в песочнице (например, /tmp, /var/log). Они объединяются с путями записи по умолчанию при активной песочнице.",
+  "settings.sandboxing.hint":
+    "Изменения сети, назначений и путей для записи применяются только к новым сеансам. Существующие сеансы сохраняют политику, с которой они были запущены.",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "Включить SWE-Pruner: обрезка больших объёмов вывода инструментов чтения, поиска и командной оболочки с учётом задачи и на основе предоставленного агентом фокус-вопроса",

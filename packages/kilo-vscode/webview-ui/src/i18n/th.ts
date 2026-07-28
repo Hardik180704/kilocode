@@ -1462,10 +1462,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "ปลายทางเครือข่ายที่อนุญาต",
   "settings.sandboxing.allowedHosts.description":
-    "โฮสต์ DNS และพอร์ตปลายทางสำหรับทราฟฟิกพร็อกซี HTTP และ HTTPS ในแซนด์บ็อกซ์ GitHub CLI และ HTTPS Git มักต้องใช้ github.com:443 และ api.github.com:443 การเปลี่ยนแปลงจะมีผลกับเซสชันใหม่",
+    "โฮสต์ DNS และพอร์ตปลายทางสำหรับทราฟฟิกพร็อกซี HTTP และ HTTPS ในแซนด์บ็อกซ์ GitHub CLI และ HTTPS Git มักต้องใช้ github.com:443 และ api.github.com:443",
   "settings.sandboxing.writablePaths.title": "เส้นทางที่เขียนได้เพิ่มเติม",
   "settings.sandboxing.writablePaths.description":
     "เส้นทางระบบไฟล์เพิ่มเติมที่แซนด์บ็อกซ์อนุญาตให้เขียนได้ (เช่น /tmp, /var/log) จะถูกรวมเข้ากับเส้นทางที่เขียนได้เริ่มต้นเมื่อแซนด์บ็อกซ์เปิดใช้งาน",
+  "settings.sandboxing.hint":
+    "การเปลี่ยนแปลงเครือข่าย ปลายทาง และเส้นทางที่เขียนได้จะมีผลกับเซสชันใหม่เท่านั้น เซสชันที่มีอยู่จะคงนโยบายที่ใช้เมื่อเริ่มต้นไว้",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "เปิดใช้ SWE-Pruner: ตัดทอนผลลัพธ์ขนาดใหญ่ของเครื่องมืออ่าน ค้นหา และเชลล์โดยคำนึงถึงงานและใช้คำถามโฟกัสที่เอเจนต์ระบุเป็นแนวทาง",

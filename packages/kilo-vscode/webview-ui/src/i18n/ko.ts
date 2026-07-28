@@ -1466,10 +1466,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "허용된 네트워크 대상",
   "settings.sandboxing.allowedHosts.description":
-    "샌드박스 처리된 HTTP 및 HTTPS 프록시 트래픽의 DNS 호스트 및 포트 대상입니다. GitHub CLI 및 HTTPS Git에는 일반적으로 github.com:443 및 api.github.com:443가 필요합니다. 변경 사항은 새 세션에 적용됩니다.",
+    "샌드박스 처리된 HTTP 및 HTTPS 프록시 트래픽의 DNS 호스트 및 포트 대상입니다. GitHub CLI 및 HTTPS Git에는 일반적으로 github.com:443 및 api.github.com:443가 필요합니다.",
   "settings.sandboxing.writablePaths.title": "추가 쓰기 가능 경로",
   "settings.sandboxing.writablePaths.description":
     "샌드박스에서 쓰기를 허용하는 추가 파일시스템 경로(예: /tmp, /var/log). 샌드박스가 활성화되면 기본 쓰기 가능 경로와 병합됩니다.",
+  "settings.sandboxing.hint":
+    "네트워크, 대상 및 쓰기 가능 경로에 대한 변경 사항은 새 세션에만 적용됩니다. 기존 세션은 시작할 때 적용된 정책을 유지합니다.",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "SWE-Pruner 활성화: 에이전트가 제공한 초점 질문에 따라 작업 맥락을 고려하여 읽기, 검색 및 셸 도구의 대용량 출력을 프루닝합니다",

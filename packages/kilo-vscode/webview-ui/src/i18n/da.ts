@@ -1479,10 +1479,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "Tilladte netværksdestinationer",
   "settings.sandboxing.allowedHosts.description":
-    "DNS-værts- og portdestinationer for sandboxet HTTP- og HTTPS-proxytrafik. GitHub CLI og HTTPS Git kræver typisk github.com:443 og api.github.com:443. Ændringer gælder for nye sessioner.",
+    "DNS-værts- og portdestinationer for sandboxet HTTP- og HTTPS-proxytrafik. GitHub CLI og HTTPS Git kræver typisk github.com:443 og api.github.com:443.",
   "settings.sandboxing.writablePaths.title": "Yderligere skrivbare stier",
   "settings.sandboxing.writablePaths.description":
     "Yderligere filsystemstier, som sandkassen tillader skrivning til (f.eks. /tmp, /var/log). Disse flettes med de standardskrivbare stier, når sandkassen er aktiv.",
+  "settings.sandboxing.hint":
+    "Ændringer af netværk, destinationer og skrivbare stier gælder kun for nye sessioner. Eksisterende sessioner beholder den politik, de startede med.",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "Aktivér SWE-Pruner: opgavebevidst beskæring af store output fra læse-, søge- og shellværktøjer, styret af et fokusspørgsmål fra agenten",

@@ -1393,10 +1393,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "允許的網路目的地",
   "settings.sandboxing.allowedHosts.description":
-    "適用於沙盒 HTTP 和 HTTPS Proxy 流量的 DNS 主機與連接埠目標。GitHub CLI 和 HTTPS Git 通常需要 github.com:443 和 api.github.com:443。變更將套用至新工作階段。",
+    "適用於沙盒 HTTP 和 HTTPS Proxy 流量的 DNS 主機與連接埠目標。GitHub CLI 和 HTTPS Git 通常需要 github.com:443 和 api.github.com:443。",
   "settings.sandboxing.writablePaths.title": "額外可寫路徑",
   "settings.sandboxing.writablePaths.description":
     "沙盒允許寫入的額外檔案系統路徑（例如 /tmp、/var/log）。沙盒啟用後，這些路徑會與預設可寫路徑合併。",
+  "settings.sandboxing.hint":
+    "網路、目的地和可寫入路徑的變更只會套用至新的工作階段。現有工作階段會保留啟動時的政策。",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "啟用 SWE-Pruner：根據智能體提供的聚焦問題，對讀取、搜尋與 shell 工具的大型輸出進行任務感知裁剪",

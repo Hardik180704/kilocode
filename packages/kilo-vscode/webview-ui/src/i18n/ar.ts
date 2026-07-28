@@ -1451,10 +1451,12 @@ export const dict = {
 
   "settings.sandboxing.allowedHosts.title": "وجهات الشبكة المسموح بها",
   "settings.sandboxing.allowedHosts.description":
-    "وجهات مضيف ومنفذ DNS لحركة مرور وكيل HTTP وHTTPS المعزولة. يحتاج GitHub CLI وHTTPS Git عادةً إلى github.com:443 وapi.github.com:443. تنطبق التغييرات على الجلسات الجديدة.",
+    "وجهات مضيف ومنفذ DNS لحركة مرور وكيل HTTP وHTTPS المعزولة. يحتاج GitHub CLI وHTTPS Git عادةً إلى github.com:443 وapi.github.com:443.",
   "settings.sandboxing.writablePaths.title": "مسارات قابلة للكتابة إضافية",
   "settings.sandboxing.writablePaths.description":
     "مسارات نظام ملفات إضافية يسمح صندوق الرمل بالكتابة إليها (مثل /tmp، /var/log). يتم دمجها مع مسارات الكتابة الافتراضية عندما يكون صندوق الرمل نشطًا.",
+  "settings.sandboxing.hint":
+    "لا تنطبق التغييرات على الشبكة والوجهات والمسارات القابلة للكتابة إلا على الجلسات الجديدة. تحتفظ الجلسات الموجودة بالسياسة التي بدأت بها.",
   "settings.experimental.swePruner.title": "SWE-Pruner",
   "settings.experimental.swePruner.description":
     "تفعيل SWE-Pruner: تقليم المخرجات الكبيرة لأدوات القراءة والبحث وshell مع مراعاة المهمة، استنادًا إلى سؤال تركيز يقدّمه الوكيل",
